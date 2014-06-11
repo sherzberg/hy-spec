@@ -22,7 +22,7 @@ def sub(x, y):
 To test it, use this `hy` code:
 
 ```hy
-# test_maths.hy
+; test_maths.hy
 
 (import [maths [add sub]])
 
