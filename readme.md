@@ -34,6 +34,14 @@ To test it, use this `hy` code:
     (-> 9 (should-not= (add 1 1)))))
 ```
 
+Thanks!
+-------
+
+Ideas have been borrowed from these awesome libraries:
+
+ * [speclj](http://speclj.com/)
+ * [rspec](http://rspec.info/)
+
 Status:
 -------
 
