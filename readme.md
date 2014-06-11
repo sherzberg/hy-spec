@@ -29,6 +29,12 @@ To test it, use this `hy` code:
 (describe "maths tests"
   (it "tests add works properly"
     (-> 5 (should= (add 3 2)))
+    (-> 5 (should= (add 3 2)))
     (-> 1 (should= (add 0 1)))
     (-> 9 (should-not= (add 1 1)))))
 ```
+
+Status:
+-------
+
+This project is currently in api design mode! Don't use it, if you are curious, send me an issue to show your interest.
